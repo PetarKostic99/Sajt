@@ -1,0 +1,538 @@
+* {
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*zajednicko*/
+
+.okvirIndex img,
+.okvirDokumenti img,
+.okvirIS img,
+.okvirOS img,
+.okvirUS img,
+.okvirUP img,
+.galerija img,
+.okvirskola img,
+.okvir img,
+.okvirSU img,
+.okvirK img {
+  width: 100%;
+  height: 100%;
+}
+/*------------------------homepage-----------------------------------*/
+.okvirIndex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+}
+.listIndexinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.listIndexinner .recenica {
+  width: 80%;
+  text-align: center;
+}
+
+/*------------------kraj-------------------------------------*/
+
+/*-----------------------dokumenti-----------------------------*/
+.okvirDokumenti {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listDokumenti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  color: white;
+}
+
+.DiA {
+  font-size: 20px;
+}
+.dokumenta {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dokumenta .db {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #262626;
+  color: white;
+}
+/*------------------kraj-------------------------------------*/
+
+/*----------------------istorijat-----------------------------*/
+.okvirIS {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listIS {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+}
+.prviIS {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  height: 100%;
+  text-align: center;
+}
+.prviIS .Naslov {
+  font-family: Helvetica, sans-serif;
+}
+.Naslov span,
+.Naslov2 span {
+  font-size: 20px;
+}
+/*------------------kraj-------------------------------------*/
+
+/*------------------organi-skole-------------------------------------*/
+.okvirOS {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listOS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  color: white;
+  position: absolute;
+}
+
+.organiOS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.sadrzajuskoli {
+  width: 80%;
+  height: 20%;
+  font-family: Helvetica, sans-serif;
+}
+.savetroditelja {
+  width: 80%;
+  height: 20%;
+  font-family: Helvetica, sans-serif;
+}
+.Lista1 {
+  list-style: none;
+}
+
+/*------------------kraj-------------------------------------*/
+
+/*------------------ucenicka-strana-------------------------------------*/
+.okvirUS {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listUS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+.nagradaUS {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nagradaUS img {
+  width: 70%;
+  height: 100%;
+  box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+}
+.poredSlike {
+  width: 100%;
+  height: 5%;
+  margin: 10px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/*------------------kraj-------------------------------------*/
+
+/*------------------ucenicki-parlament-------------------------------------*/
+.okvirUP {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+
+.listUP {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+}
+
+.UPtekst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.UPtekst {
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+}
+.UPtekst .p1 {
+  font-size: 25px;
+}
+.UPtekst .p2 {
+  font-size: 20px;
+}
+.UPtekst button {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #262626;
+  color: white;
+}
+/*------------------kraj-------------------------------------*/
+
+/*------------------slike-------------------------------------*/
+.okvirG {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/Slika.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.okvirG img {
+  width: 100%;
+  height: 100%;
+}
+.galerija {
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.galerija .slk {
+  border: 2px solid #9ad2cb;
+  box-shadow: 5px 6px 30px -16px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 6px 30px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 30px -16px rgba(0, 0, 0, 0.75);
+  width: 400px;
+  height: 380px;
+  margin-bottom: 10px;
+}
+
+/*------------------kraj-------------------------------------*/
+
+/*------------------skola-danas-------------------------------------*/
+.okvirSD {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+.listSD {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+}
+.okvirskola {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.OpisSkole {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+/*------------------kraj-------------------------------------*/
+
+/*------------------udzbenici-------------------------------------*/
+.okvirSU {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+.listSU {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+}
+.udzbenici {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  color: white;
+}
+.lista-izdavaci a {
+  font-weight: bold;
+  color: yellow;
+}
+.udzbenici > p {
+  font-size: 30px;
+}
+/*------------------kraj-------------------------------------*/
+
+/*------------------kontakt-------------------------------------*/
+.okvirK {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+  text-align: center;
+  overflow: hidden;
+}
+.listK {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  color: white;
+}
+#map {
+  width: 70%;
+  height: 50%;
+  outline: none;
+}
+/*------------------kraj-------------------------------------*/
+.okvir {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+.okolo {
+  width: 60%;
+  height: 50%;
+  border: 2px solid purple;
+  position: relative;
+}
+.list {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+}
+
+.prvi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #262626 !important ;
+}
+#navbarDropdown {
+  color: white !important;
+  font-family: Helvetica, sans-serif;
+}
+.nav-link {
+  color: white !important;
+  font-family: Helvetica, sans-serif;
+}
+.navbar-brand {
+  color: white !important;
+  font-family: Helvetica, sans-serif !important;
+}
+.navbar-toggler {
+  color: white !important;
+}
+#icon {
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .dokumenta {
+    flex-direction: column;
+  }
+
+  .okvirIS {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+  }
+
+  .listIS {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+  }
+  .prviIS {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .listUS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+  }
+  .poredSlike {
+    width: 70%;
+    height: 5%;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .nagradaUS img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -4px 19px -5px rgba(0, 0, 0, 0.75);
+  }
+  #map {
+    width: 100%;
+    height: 50%;
+    outline: none;
+  }
+  .listK {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    color: white;
+  }
+
+  .listIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    color: white;
+    position: absolute;
+  }
+  .listIndexinner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .listIndexinner .recenica {
+    width: 80%;
+    text-align: center;
+  }
+}
